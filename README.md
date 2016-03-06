@@ -2,11 +2,14 @@
 
 This is not a framework, this is something to get things done in PHP.
 
-This package uses a few community packages to provide just enough functionality to do something useful. For example filp/whoops is used for error handling, symfony/http-foundation is used for HTTP and phroute/phroute for routing (among others).
+This thing uses a few community packages to provide just enough functionality to do something useful.
+
+For example [Whoops](https://github.com/filp/whoops) is used for error handling, [HttpFoundation](symfony/http-foundation) is used for HTTP and [PHRoute](https://github.com/mrjgreen/phroute) for routing. To name but a few.
+
 
 ## Installation
 
-For the moment just clone the repo. Packagist will come soon...or when I get around to it.
+For the moment just clone the repo. Composer will come soon...or when I get around to it.
 
 ## Tests
 
