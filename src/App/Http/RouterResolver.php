@@ -36,6 +36,9 @@ class RouterResolver implements HandlerResolverInterface
     {
         // Only attempt to resolve uninstantiated objects.
         if (is_array($handler) && is_string($handler[0])) {
+            // Retrieve the route handler class from the dependency injection
+            // container. This ensures that the instantiated handler class
+            // receives all of the correct dependencies.
             $handler[0] = $this->container->get($handler[0]);
         }
 

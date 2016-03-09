@@ -7,7 +7,7 @@
 namespace NotAFramework\App\Render;
 
 /**
- * Interface that our chosen template engine will need to implement.
+ * Interface that our chosen renderer will need to implement.
  */
 interface RendererInterface
 {

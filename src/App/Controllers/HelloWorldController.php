@@ -45,6 +45,9 @@ class HelloWorldController
      */
     public function __construct(Request $request, Response $response, RendererInterface $renderer)
     {
+        // TODO: Look at improving the dependency injection and abstracting this
+        // into a abstract controller class. We always want the request/response
+        // objects in a controller.
         $this->request = $request;
         $this->response = $response;
         $this->renderer = $renderer;
