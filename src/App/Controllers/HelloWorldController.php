@@ -1,10 +1,10 @@
 <?php
 /**
  * @file
- * Contains \NotAFramework\Controllers\HelloWorldController.
+ * Contains \NotAFramework\App\Controllers\HelloWorldController.
  */
 
-namespace NotAFramework\Controllers;
+namespace NotAFramework\App\Controllers;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

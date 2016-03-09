@@ -24,11 +24,11 @@ $router = new RouteCollector();
  * });
  *
  * // Controller based route.
- * $router->get('/', ['NotAFramework\Controllers\Example', 'show']);
+ * $router->get('/', ['NotAFramework\App\Controllers\Example', 'show']);
  *
  * @see https://github.com/mrjgreen/phroute
  */
 
-$router->get('/', ['NotAFramework\Controllers\HelloWorldController', 'show']);
+$router->get('/', ['NotAFramework\App\Controllers\HelloWorldController', 'show']);
 
-$router->get('/json', ['NotAFramework\Controllers\HelloWorldController', 'json']);
+$router->get('/json', ['NotAFramework\App\Controllers\HelloWorldController', 'json']);
