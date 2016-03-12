@@ -6,26 +6,11 @@
 
 namespace NotAFramework\App\Controllers;
 
-use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\HttpFoundation\Response;
+use NotAFramework\App\Controllers\Controller;
 use NotAFramework\App\Render\RendererInterface;
 
-class HelloWorldController
+class HelloWorldController extends Controller
 {
-    /**
-     * The HTTP request object.
-     *
-     * @var Request
-     */
-    private $request;
-
-    /**
-     * The HTTP response object.
-     *
-     * @var Response
-     */
-    private $response;
-
     /**
      * The renderer object.
      *
@@ -36,20 +21,11 @@ class HelloWorldController
     /**
      * Create a new HelloWorldController instance.
      *
-     * @param Request $request
-     *   HTTP request object.
-     * @param Response $response
-     *   HTTP response object.
      * @param RendererInterface $renderer
      *   Renderer object.
      */
-    public function __construct(Request $request, Response $response, RendererInterface $renderer)
+    public function __construct(RendererInterface $renderer)
     {
-        // TODO: Look at improving the dependency injection and abstracting this
-        // into a abstract controller class. We always want the request/response
-        // objects in a controller.
-        $this->request = $request;
-        $this->response = $response;
         $this->renderer = $renderer;
     }
 
