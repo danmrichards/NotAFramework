@@ -9,7 +9,7 @@ namespace NotAFramework\App\Controllers;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-class Controller
+abstract class Controller
 {
     /**
      * The HTTP request object.

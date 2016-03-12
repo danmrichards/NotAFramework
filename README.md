@@ -15,7 +15,7 @@ For the moment just clone the repo. Composer will come soon...or when I get arou
 Routes are defined in the `src/App/Http/routes.php` file. By default routing is powered by [PHRoute](https://github.com/mrjgreen/phroute). So see that for full documentation, but basically routes can either be defined as closures:
 
 ```
-$router->get('/example', function(){
+$router->get('/example', function() {
     return 'This route responds to requests with the GET method at the path /example';
 });
 ```
@@ -32,7 +32,7 @@ Controllers are placed in the `src/App/Controllers` directory and should be name
 
 There is no rigid pattern to follow with these controllers, you can add as many dependencies, helpers and additional traits/services/interfaces you like.
 
-The example controller `src/App/Controllers/HelloWorldController.php` takes the Symfony Request & Reponse objects as dependencies. This is good practice and will allow easier interfacing with the HTTP layer.
+The example controller `src/App/Controllers/HelloWorldController.php` extends the base `NotAFramework\App\Controllers\Controller` abstract class. This allows the Symfony Request & Reponse objects to be passed to the controller. This is good practice and will allow easier interfacing with the HTTP layer.
 
 ## Dependency Injection
 
