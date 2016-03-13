@@ -9,7 +9,7 @@ $whoops = new \Whoops\Run;
 
 // Check our current environment setting and decide how to handle
 // errors accordingly.
-if ($environment !== 'production') {
+if ($config['environment'] !== 'production') {
     // Dev mode so show all error information.
     error_reporting(E_ALL);
     $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);

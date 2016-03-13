@@ -15,8 +15,8 @@ use NotAFramework\App\Http\RouterResolver;
 // Use the autoloader from composer; because why not.
 require __DIR__ . '/../vendor/autoload.php';
 
-// Set our environment.
-$environment = 'development';
+// Load the app configuration.
+$config = require_once __DIR__ . '/App/config.php';
 
 // Load the error handler.
 require __DIR__ . '/App/error.php';
