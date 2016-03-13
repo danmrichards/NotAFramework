@@ -1,5 +1,9 @@
 # Not a Framework
 
+[![Latest Version](https://img.shields.io/github/release/danmrichards/notaframework.svg)](https://github.com/danmrichards/NotAFramework/releases)
+[![Software License](https://img.shields.io/packagist/l/danmrichards/notaframework.svg?style=flat)](LICENSE)
+[![Total Downloads](https://img.shields.io/packagist/dt/danmrichards/notaframework.svg?style=flat)](https://packagist.org/packages/danmrichards/notaframework)
+
 This is not a framework, this is something to get things done in PHP.
 
 This thing uses a few community packages to provide just enough functionality to do something useful.
