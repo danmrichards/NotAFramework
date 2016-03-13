@@ -52,7 +52,7 @@ Twig, if used in file system mode, will look it's template files in the `templat
 
 ## Tests
 
-Yeah...
+Yeah...all the packages are unit tested within themselves, and we have PHPUnit. So that'll do for now.
 
 ## License
 
