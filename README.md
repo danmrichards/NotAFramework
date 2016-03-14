@@ -2,6 +2,7 @@
 
 [![Latest Version](https://img.shields.io/github/release/danmrichards/notaframework.svg)](https://github.com/danmrichards/NotAFramework/releases)
 [![Software License](https://img.shields.io/packagist/l/danmrichards/notaframework.svg?style=flat)](LICENSE)
+[![Quality Score](https://img.shields.io/scrutinizer/g/danmrichards/notaframework.svg?style=flat)](https://scrutinizer-ci.com/g/danmrichards/notaframework)
 [![Total Downloads](https://img.shields.io/packagist/dt/danmrichards/notaframework.svg?style=flat)](https://packagist.org/packages/danmrichards/notaframework)
 
 This is not a framework, this is something to get things done in PHP.

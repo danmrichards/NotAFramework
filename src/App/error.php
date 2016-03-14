@@ -15,7 +15,7 @@ if ($config['environment'] !== 'production') {
     $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
 } else {
     // In production show a friendly message.
-    $whoops->pushHandler(function ($e) {
+    $whoops->pushHandler(function () {
         echo "Blimey, that wasn't supposed to happen. Please email the developer";
     });
 }
