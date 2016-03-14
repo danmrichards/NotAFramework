@@ -2,6 +2,7 @@
 
 [![Latest Version](https://img.shields.io/github/release/danmrichards/notaframework.svg)](https://github.com/danmrichards/NotAFramework/releases)
 [![Software License](https://img.shields.io/packagist/l/danmrichards/notaframework.svg?style=flat)](LICENSE)
+[![Build Status](https://img.shields.io/travis/danmrichards/NotAFramework/master.svg?style=flat)](https://travis-ci.org/danmrichards/NotAFramework)
 [![Quality Score](https://img.shields.io/scrutinizer/g/danmrichards/notaframework.svg?style=flat)](https://scrutinizer-ci.com/g/danmrichards/notaframework)
 [![Total Downloads](https://img.shields.io/packagist/dt/danmrichards/notaframework.svg?style=flat)](https://packagist.org/packages/danmrichards/notaframework)
 
@@ -13,7 +14,13 @@ For example [Whoops](https://github.com/filp/whoops) is used for error handling,
 
 ## Installation
 
-For the moment just clone the repo. Composer will come soon...or when I get around to it.
+Installation is best handled via composer:
+
+```
+composer create-project --prefer-dist danmrichards/notaframework anewthing
+```
+
+Alternatively, if you dislike composer for some mad reason, you can download the zip file.
 
 ## Routing
 
