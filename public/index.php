@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 /**
  * NotAFramework - Something to get things done in PHP
  *

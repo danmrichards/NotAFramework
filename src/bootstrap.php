@@ -16,7 +16,7 @@ use NotAFramework\App\Http\RouterResolver;
 require __DIR__ . '/../vendor/autoload.php';
 
 // Load the app configuration.
-$config = require_once __DIR__ . '/App/config.php';
+require_once __DIR__ . '/App/config.php';
 
 // Load the error handler.
 require __DIR__ . '/App/error.php';

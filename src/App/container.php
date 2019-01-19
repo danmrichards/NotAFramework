@@ -52,4 +52,4 @@ $container->share('Symfony\Component\HttpFoundation\Response');
 
 // By default we'll use Twig as our renderer. Feel free to swap this out.
 $container->add('NotAFramework\App\Render\RendererInterface', 'NotAFramework\App\Render\TwigRenderer')
-    ->withArgument(new Twig_Loader_Filesystem(__DIR__ . '/../../templates'));
+    ->addArgument(new Twig_Loader_Filesystem(__DIR__ . '/../../templates'));

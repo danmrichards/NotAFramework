@@ -9,7 +9,7 @@
  * application environment setting.
  */
 
-return [
+$config = [
     // Set our application environment, potential values are
     // 'production' or 'development'.
     'environment' => 'development',

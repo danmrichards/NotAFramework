@@ -27,6 +27,8 @@ class TwigRenderer implements RendererInterface
 
     /**
      * Create a new TwigRenderer instance.
+     *
+     * @param Twig_LoaderInterface $loader
      */
     public function __construct(Twig_LoaderInterface $loader)
     {

@@ -6,7 +6,6 @@
 
 namespace NotAFramework\App\Controllers;
 
-use NotAFramework\App\Controllers\Controller;
 use NotAFramework\App\Render\RendererInterface;
 
 class HelloWorldController extends Controller
