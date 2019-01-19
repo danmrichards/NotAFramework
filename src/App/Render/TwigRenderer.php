@@ -42,7 +42,7 @@ class TwigRenderer implements RendererInterface
     public function render($template, $data = [])
     {
         // Render the template with the extension. We'll always use the same
-        // file extension so theres no need to keep repeating it.
+        // file extension so there's no need to keep repeating it.
         return $this->twig->render("{$template}.html.twig", $data);
     }
 }
